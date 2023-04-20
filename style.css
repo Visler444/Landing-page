@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    background-color: #1f2937 ;
+    font-size: 24px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: white;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+li.logo {
+    margin-right: auto;
+}
+
+#hero {
+    display: flex;
+    flex: 1;
+}
+
+#box-one {
+    display: flex;
+    flex-direction: column;
+}
+#box-two {
+    display: flex;
+}
