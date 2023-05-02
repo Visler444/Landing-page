@@ -38,3 +38,25 @@ li.logo {
 #box-two {
     display: flex;
 }
+
+
+.information-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+
+.information {
+    display: flex;
+    justify-content: space-around;
+}
+
+.information div {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border: solid;
+    border-color: grey;
+}
