@@ -29,6 +29,7 @@ li.logo {
 #hero {
     display: flex;
     flex: 1;
+    background-color: #1f2937;
 }
 
 #box-one {
@@ -59,4 +60,82 @@ li.logo {
     margin: 10px;
     border: solid;
     border-color: grey;
+}
+
+.testimonial {
+    display: flex;
+    background-color: #e5e7eb;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text
+}
+
+.quote {
+    display: flex;
+    width: 750px;
+    text-align: justify;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+}
+
+.cite {
+    text-align: right;
+    width: 750px;
+    font-style: bold;
+    font-size: 36px;
+}
+
+.cta {
+    display: flex;
+    height: 300px;
+}
+
+.cta-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #3882f6;
+    height: 150px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 10px;
+}
+.cta-text-box {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cta-title {
+    color: white;
+}
+.cta-text {
+    color: white;
+}
+
+.cta-botton-box {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.cta-botton {
+    width: 100px;
+    height: 25px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
 }
