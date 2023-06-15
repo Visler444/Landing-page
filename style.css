@@ -51,15 +51,27 @@ li.logo {
 
 .information {
     display: flex;
-    justify-content: space-around;
+    height: 400px;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.information div {
-    width: 100px;
-    height: 100px;
+
+div.b {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 150px;
     margin: 10px;
     border: solid;
-    border-color: grey;
+    border-color: #3882f6;
+    border-radius: 10px;
+    border-width: 4px;
+}
+
+span.p {
+    display: block;
 }
 
 .testimonial {
