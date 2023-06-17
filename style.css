@@ -28,16 +28,57 @@ li.logo {
 
 #hero {
     display: flex;
-    flex: 1;
+    height: 500px;
+    justify-content: space-around;
     background-color: #1f2937;
 }
 
 #box-one {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 350px;
 }
+
+.hero-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-align: left;
+    word-break: normal;
+    width: 400px;
+}
+
+.hero-p {
+    font-size: 18px;
+    color: #e5e7eb;
+    text-align: left;
+    word-break: normal;
+    width: 400px;
+}
+
+.hero-button {
+    color: white;
+    background-color: #3882f6;
+    font-weight: bold;
+    width: 115px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+margin-left: -288px;
+}
+
 #box-two {
     display: flex;
+    justify-content: center;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+.hero-picture {
+    width: 650px;
 }
 
 
@@ -51,7 +92,7 @@ li.logo {
 
 .information {
     display: flex;
-    height: 400px;
+    height: 200px;
     justify-content: space-evenly;
     align-items: center;
 }
@@ -70,8 +111,16 @@ div.b {
     border-width: 4px;
 }
 
-span.p {
-    display: block;
+.paragraph-container {
+    text-align: center;
+    height: 200px;
+}
+
+span.p {   
+    vertical-align: top;
+    text-align: center;
+    margin: 35px;
+    overflow-wrap: break-word;
 }
 
 .testimonial {
